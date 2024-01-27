@@ -11,6 +11,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{749BD91E-D91C-42F5-8EC0-DB44CC809C9D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "services\Catalog\Catalog.API\Catalog.API.csproj", "{E4171897-43AA-4A90-B893-DF37D6F6BBC2}"
+<<<<<<< HEAD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{11345CC9-37FF-439D-94B0-4660B4998B2F}"
 EndProject
@@ -19,6 +20,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{BBE2F1F7-694F-43B2-B043-415FFBE87EFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{B7AD4D96-8B98-4ADD-9047-F2465DAF0FD9}"
+=======
+>>>>>>> complete catalog service
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
