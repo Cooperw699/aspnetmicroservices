@@ -1,4 +1,6 @@
 
+using Discount.API.Repositories;
+
 namespace Discount.API
 {
     public class Program
@@ -7,6 +9,7 @@ namespace Discount.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
             // Add services to the container.
 
             builder.Services.AddControllers();
